@@ -15,7 +15,6 @@ path = 'car_combined.csv'
 np.random.seed(42)                       # để kết quả tái lập được
 
 # ---------- đọc và mã hóa dữ liệu từ CSV ----------
-# Bài toán nhị phân (giống bài sinh viên Passed = 1/0):
 #   class = unacc            -> 0 (xe không chấp nhận được)
 #   class = acc/good/vgood   -> 1 (xe chấp nhận được)
 # Mọi thuộc tính đều là biến phân loại -> mã hóa one-hot.
